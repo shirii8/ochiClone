@@ -26,7 +26,7 @@ const Marquee = () => {
           {[...Array(6)].map((_, index) => (
             <h1
               key={index}
-              className="text-[17vw] leading-none font-[Founders_Grotest] font-bold uppercase"
+              className="text-[17vw] leading-none font-bold uppercase"
             >
               We are Ochi
             </h1>
