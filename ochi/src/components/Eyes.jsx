@@ -8,7 +8,7 @@ function Eyes() {
   useEffect(()=>{
     window.addEventListener("mousemove", (e)=>{
     const mouseX= e.clientX;
-    const mouseY= e.clientY;
+    // const mouseY= e.clientY;
 
     const deltaX= mouseX- window.innerWidth/2;
       const deltaY= mouseX- window.innerHeight/2;
